@@ -82,7 +82,7 @@ Here are some examples to explore later on.
 
 Let's discuss how this works first, and then we're going to practice with RStudio. You come across code for an R package that will randomly download 10 dog pictures from the internet given the name of a dog breed. Obviously, you need this on your computer, so you're going to **clone** it. 
 
-## Github Workflow and Vocabulary
+## GitHub Workflow and Vocabulary
 
 * **clone**: download an identical copy - a 'clone' - of a repository to your local computer. Unlike most downloads, cloned repositories can still be synced with the online version(s). 
 

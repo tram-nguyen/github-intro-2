@@ -1,11 +1,11 @@
 ---
 title: "Introduction to GitHub"
 author: Alexa Fredston-Hermann <br> PhD Student, Bren School <br> fredstonhermann@ucsb.edu
-  <br> Special thanks to Dr. Julie Stewart Lowndes who created this presentation 
+  <br> Special thanks to Dr. Julie Stewart Lowndes who created this presentation
 output:
-  slidy_presentation: default
-  ioslides_presentation: default
   beamer_presentation: default
+  ioslides_presentation: default
+  slidy_presentation: default
 ---
 ## Does this look familiar? 
 
@@ -82,6 +82,8 @@ Here are some examples to explore later on.
 
 Let's discuss how this works first, and then we're going to practice with RStudio. You come across code for an R package that will randomly download 10 dog pictures from the internet given the name of a dog breed. Obviously, you need this on your computer, so you're going to **clone** it. 
 
+## Github Workflow and Vocabulary
+
 * **clone**: download an identical copy - a 'clone' - of a repository to your local computer. Unlike most downloads, cloned repositories can still be synced with the online version(s). 
 
 ![](fig/github_workflow1a.png)
@@ -92,13 +94,13 @@ Now that you have a local copy of this package, you edit the code to only downlo
 
 I think of commit as the GitHub version of 'save', but you also get to add a comment. 
 
+## Github Workflow and Vocabulary
+
 * **commit**: message associated with your changes ([best practices](http://r-pkgs.had.co.nz/git.html#commit-best-practices))
 
 ![xkcd](https://imgs.xkcd.com/comics/git_commit.png)
 
 ## GitHub Workflow and Vocabulary
-
-Now that you have a local copy of this package, you edit the code to only download pictures of puppies. When you're at a good stopping point and want to save your progress, you 'commit' the code with an informative message describing the changes for your future self or anyone else who sees this code. 
 
 * **commit**: message associated with your changes ([best practices](http://r-pkgs.had.co.nz/git.html#commit-best-practices))
 
@@ -109,6 +111,8 @@ Now that you have a local copy of this package, you edit the code to only downlo
 But wait! Before you share your newly updated R package with the world, you want to be sure the person who created it hasn't made any changes to the original (bug fixes, for example). To download new changes to the code from others, you 'pull' from GitHub. **This is also how you can switch computers and easily work on the same code.** 
 
 If there are differences that can be easily resolved (e.g., the R package developer fixed a bug by adding a line of code), your repository will be 'merged' accordingly. If the differences *conflict*, you have to resolve them manually by telling GitHub which changes to keep and which to ignore. 
+
+## Github Workflow and Vocabulary
 
 * **pull**: sync a repo on your computer with the online version. Do this frequently to avoid **merge conflicts** or working on outdated code. 
 
@@ -192,6 +196,8 @@ You'll notice the top right pane has a tab called 'git'. Click on it, and you'll
 
 Don't forget to pull before you push! Because no one else should be editing your forked repository, there shouldn't be any changes when you pull. Finally, push your commit, and then go back to GitHub to see the changes in the repository. 
 
+## RStudio Practice
+
 If you wanted to create a new repository, you would go to the GitHub home page, click 'new repository' and follow the prompts, and then use the same process we just covered to clone it and start editing code in RStudio. You can drag and drop files from other locations into the repo directory on your local machine and then push them to GitHub, if they aren't too big. 
 
 ## Non-R Options: Creating Repositories
@@ -231,6 +237,8 @@ When you work on your computer, any edits you make to any files in your repo, us
 ## Thanks
 
 ![xkcd](https://imgs.xkcd.com/comics/git.png)
+
+## Thanks 
 
 If you have any questions, now or ever: 
 

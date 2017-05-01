@@ -3,8 +3,8 @@ title: "Introduction to GitHub"
 author: Alexa Fredston-Hermann <br> PhD Student, Bren School <br> fredstonhermann@ucsb.edu
   <br> Special thanks to Dr. Julie Stewart Lowndes who created this presentation
 output:
-  beamer_presentation: default
   ioslides_presentation: default
+  beamer_presentation: default
   slidy_presentation: default
 ---
 ## Does this look familiar? 

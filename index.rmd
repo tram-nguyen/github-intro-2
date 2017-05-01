@@ -59,8 +59,6 @@ Git is distinct from GitHub, but this is not the focus today.
 
 Files are stored in **repositories**, owned by **users** / **organizations**.  
 
-Repositories ('repos') are essentially folders containing files pertaining to a specific project - data, code, images, etc. Repositories are **version controlled** so that any modifications to files, additions or deletions, are tracked and attributed to contributors with the correct permissions - without creating new filenames. 
-
 <p align = 'center'>![](fig/commitex.png)
 
 ## GitHub Structure
@@ -94,7 +92,7 @@ Now that you have a local copy of this package, you edit the code to only downlo
 
 I think of commit as the GitHub version of 'save', but you also get to add a comment. 
 
-## Github Workflow and Vocabulary
+## GitHub Workflow and Vocabulary
 
 * **commit**: message associated with your changes ([best practices](http://r-pkgs.had.co.nz/git.html#commit-best-practices))
 
@@ -127,16 +125,20 @@ After committing your changes and pulling the repository again, you're ready to 
 
 ![](fig/github_workflow1.png)
 
-## GitHub Workflow: branches and issues
+## GitHub Workflow: branches
 
-GitHub's branching approach is very intuitive to some people, and not to others. There are two ways to work on an existing repository: 
-
-* Clone it and then push and pull directly from the original ('master') - suitable for small group collaborations. 
-* Create a 'fork' in the branch so that you can make any changes to all of the repository contents without affecting the other branches, such as the master branch. This is suitable for when you just want to copy code, or for very large collaborations. 
+GitHub's branching approach is very intuitive to some people, and not to others. 
 
 ![](fig/branches_issues.png)
 
 [guides.github.com/introduction/flow](https://guides.github.com/introduction/flow)
+
+## Github Workflow: branches
+
+There are (at least) two ways to work on an existing repository: 
+
+* Clone it and then push and pull directly from the original ('master') - suitable for small group collaborations. 
+* Create a 'fork' in the branch so that you can make any changes to all of the repository contents without affecting the other branches, such as the master branch. This is suitable for when you just want to copy code, or for very large collaborations. 
 
 ## GitHub Workflow: sync with branch
 

@@ -188,6 +188,8 @@ Open RStudio and go to file -> new project. Then click version control, then git
 
 The second box is for the name of the project, and the new directory you're creating on your computer. I almost always use the same name as the repository (in this case, `github-intro-2`). 
 
+## RStudio Practice
+
 Finally, tell RStudio where to put this repo. It is **strongly** recommended that you create a directory in your home directory called 'github', and put all your repositories and code there. To do this, put '~/github' in the third box. Finally, click 'create project'. (If you get an error doing this, there could be many reasons, but the first thing I try is going back to the repository on GitHub, clicking 'use SSH' or 'use HTTPS' under the green 'clone' button (whichever you didn't use last time), and repeating everything on this slide. You might also have to manually create a 'github' folder in your home directory.) 
 
 ## RStudio Practice
